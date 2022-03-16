@@ -26,7 +26,7 @@
             </noscript>
         <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
         <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" /> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
 
     </head>
 <body>
@@ -95,13 +95,58 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header19 cid-sZLj9oPRSf" id="header19-15">
+<section data-bs-version="5.1" class="header19 cid-sZLj9oPRSf" id="header19-15" uk-slideshow>
     <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(40, 120, 26);">
     </div>
 
     <div class="container">
-        <div class="media-container">
-            <div class="col-md-12 col-lg-10 m-auto align-center">
+        <div class="media-container uk-slideshow-items" uk-slideshow="animation: fade">
+            <div class="col-md-12 col-lg-10 m-auto align-center" >
+                <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
+                    <strong><br></strong>
+                    <strong>Plateau State Infrastructure Promotion and Regulatory Agency</strong>
+                </h1>
+                <p class="mbr-text mbr-white mbr-fonts-style display-7">
+                    (PUBLIC PRIVATE PARTNERSHIP OFFICE)
+                </p>
+            
+                <div class="row pt-5 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-cash mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Agriculture</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-cart-add mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Natural Minerals</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-users mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Trade &amp; Commerce</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-wrapper">
+                            <div class="card-box align-center">
+                                <span class="mbr-iconfont mobi-mbri-layers mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Tourism &amp; Hospitality</strong></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-10 m-auto align-center" >
                 <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                     <strong><br></strong>
                     <strong>Plateau State Infrastructure Promotion and Regulatory Agency</strong>
@@ -561,7 +606,7 @@
             copyright &copy; 2022, All rights reserved
         </p>
         
-        <a style="z-index:1" href="https://mobirise.com/web-page-maker.html">Web Page Builder</a>
+        <a style="z-index:1" href="https://mobirise.com/web-page-maker.html"></a>
     </section>
 
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  
@@ -573,8 +618,8 @@
     <script src="assets/theme/js/script.js"></script>  
 
     <!-- UIkit JS -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
     
     
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up">

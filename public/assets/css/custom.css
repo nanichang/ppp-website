@@ -1,0 +1,25 @@
+.sector {
+    padding: 5px;
+    border: none;
+    cursor: pointer
+}
+
+.sector:hover {
+    background-color: #eee;
+    /* color: #416718; */
+    border-radius: 5%;
+    opacity: 0.5;
+}
+
+.sector h4 {
+    color: #416718;
+    z-index: 3000;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}

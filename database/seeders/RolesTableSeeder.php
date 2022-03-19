@@ -24,15 +24,10 @@ class RolesTableSeeder extends Seeder
         );
 
         foreach($roles as $role) {
-            // $rol = new Role();
             $rol = Sentinel::getRoleRepository()->createModel();
             $rol->slug = $role['slug'];
             $rol->name = $role['name'];
             $rol->description = $role['description'];
-            // $rol->permissions = [
-            //     'user.update' => true,
-            //     'user.view' => true,
-            // ];
             $rol->save();
         }
       

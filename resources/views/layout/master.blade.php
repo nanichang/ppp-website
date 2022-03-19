@@ -1,229 +1,125 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
 
-    <!-- SEO Meta description -->
-    <meta name="description" content="Plateau State Infrastructure Promotion and Regulatory Agency (Public Private Partnership Office) Website">
-    <meta name="author" content="Nanichang Katzing">
+    <head>
+        <!-- Site made with Mobirise Website Builder v5.6.3, https://mobirise.com -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="assets/images/logo2-95x95.png" type="image/x-icon">
+        <meta name="description" content="">
+        <title>
+            Plateau State Infrastructure Promotion and Regulatory Agency (Public Private Partnership Office)
+        </title>
+        <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="assets/parallax/jarallax.css">
+        <link rel="stylesheet" href="assets/dropdown/css/style.css">
+        <link rel="stylesheet" href="assets/socicon/css/styles.css">
+        <link rel="stylesheet" href="assets/theme/css/style.css">
+        
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+            <noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
+            </noscript>
+        <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+        <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" /> -->
+        <link rel="stylesheet" href="assets/css/custom.css">
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="Plateau State Infrastructure Promotion and Regulatory Agency (Public Private Partnership Office)"/> <!-- website name -->
-    <meta property="og:site" content=""/> <!-- website link -->
-    <meta property="og:title" content="Plateau State Infrastructure Promotion and Regulatory Agency (Public Private Partnership Office)"/> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="Plateau State Infrastructure Promotion and Regulatory Agency (Public Private Partnership Office)"/> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="https://ppp.plateaustate.gov.ng"/> <!-- where do you want your post to link to -->
-    <meta property="og:type" content="article"/>
-
-    <!--title-->
-    <title>Plateau State Infrastructure Promotion and Regulatory Agency (Public Private Partnership Office)</title>
-
-    <!--favicon icon-->
-    <!-- <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16"> -->
-
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:600,700,800%7COpen+Sans:400,600&display=swap" rel="stylesheet">
-
-    <!--Bootstrap css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css') }}">
-    <!--Magnific popup css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/magnific-popup.css') }}">
-    <!--Themify icon css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/themify-icons.css') }}">
-    <!-- <link rel="stylesheet" href="https://ncovid.themetags.com/css/themify-icons.css    "> -->
-    
-    <!--Fontawesome icon css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/all.min.css') }}">
-    <!--Datable min css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/datatables.min.css') }}">
-    <!--animated css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/animate.min.css') }}">
-    <!--Owl carousel css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/owl.theme.default.min.css') }}">
-    <!--custom css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/style.css') }}">
-    <!--responsive css-->
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/responsive.css') }}">
-
-</head>
-<body>
-
-<!--loader start-->
-<div id="preloader">
-    <div class="loader1">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-</div>
-<!--loader end-->
-
-<!--header section start-->
-<header class="header">
-    <!--start navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="{{ URL::asset('assets/img/LOGO_1.png') }}" width="60" alt="logo" class="img-fluid"/>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="ti-menu"></span>
-            </button>
-            <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto menu">
-                    <li><a href="/"> Home</a></li>
-                    <li><a href="#" class="dropdown-toggle">About Us</a>
-                        <ul class="sub-menu">
-                            <li><a href="{{ route('pages.about') }}">What We Do</a></li>
-                            <li><a href="{{ route('pages.board') }}">Board</a></li>
-                            <li><a href="{{ route('pages.management') }}">Management</a></li>
+    </head>
+    <body>
+  
+        <section data-bs-version="5.1" class="menu menu2 cid-sZFxXHUmJK" once="menu" id="menu2-m">
+            
+            <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <span class="navbar-logo">
+                            <a href="/">
+                                <img src="assets/images/logo2-95x95.png" alt="Mobirise Website Builder" style="height: 3rem;">
+                            </a>
+                        </span>
+                        <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-7" href="/">PPP OFFICE</a></span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="{{ route('pages.home') }}">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link text-primary dropdown-toggle display-4" href="/" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Agency</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown-784">
+                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.about') }}">What We Do</a>
+                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.board') }}">The Team</a>
+                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="{{ route('pages.discover') }}">
+                                    Discover Plateau
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="{{ route('pages.publications') }}">
+                                    Media
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="">
+                                    Projects
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="">
+                                    Portal
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link text-primary display-4" href="{{ route('pages.contact') }}">
+                                    Contacts
+                                </a>
+                            </li>
                         </ul>
-                    </li>
-                    <li><a href="{{ route('pages.discover') }}">Discover Plateau</a></li>
-                    <li><a href="{{ route('pages.publications') }}">Publications</a></li>
-                    <li><a href="#">Portal</a></li>
-                    <li><a href="{{ route('pages.contact') }}">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-<!--header section end-->
-
-<!--body content wrap start-->
-<div class="main">
-    @yield('content')
-</div>
-<!--body content wrap end-->
-
-
-<!--footer section start-->
-<footer class="footer-section gradient-overlay ptb-100 position-relative" style="background: url('assets/img/header-bg-2.jpg')no-repeat center center / cover">
-    <!-- <div class="shape5"><img src="assets/img/shape5.png" alt="shape"></div>
-    <div class="shape6 rotateme"><img src="assets/img/shape3.svg" width="64" alt="shape"></div>
-    <div class="shape7"><img src="assets/img/shape4.svg" width="60" alt="shape"></div>
-    <div class="shape8 rotateme"><img src="img/shape2.svg" alt="shape"></div> -->
-    <div class="container">
-        <!--footer top start-->
-        <div class="row justify-content-between">
-            <div class="col-md-4 col-lg-4">
-                <div class="footer-nav-wrap text-white">
-                    <img src="assets/img/LOGO_1.png" width="100" alt="logo" class="mb-3">
-                    <p>Subscribe our newsletter for latest update.</p>
-
-                    <form class="newsletter-form">
-                        <input type="text" class="input-newsletter" placeholder="Enter your email address" name="EMAIL" required="" autocomplete="off">
-                        <button type="submit" class="disabled" style="pointer-events: all; cursor: pointer;"><i class="fas fa-paper-plane"></i></button>
-                    </form>
-
-                    
-                </div>
-            </div>
-            <div class="col-md-8 col-lg-7">
-                <div class="row footer-top-wrap justify-content-around">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="footer-nav-wrap text-white">
-                            <h4 class="text-white">QUICK LINKS</h4>
-                            <ul class="nav flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Portal</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Discover Plateau</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Publications</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="footer-nav-wrap text-white">
-                            <h4 class="text-white">HELPFULL LINK</h4>
-                            <ul class="nav flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Situation Reports</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Advice For Public</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Prevention</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Symptoms</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Donor & Partners</a>
-                                </li>
-                            </ul>
-
-                        </div>
                     </div>
                 </div>
-            </div>
+            </nav>
+        </section>
+
+        @yield('content')
+
+        <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
+            <a href="https://mobiri.se/359463" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;">
+                <img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+            </a>
+            <p style="margin: 0;text-align: center;" class="display-7">
+                copyright &copy; 2022, All rights reserved
+            </p>
+            
+            <a style="z-index:1" href="https://mobirise.com/web-page-maker.html"></a>
+        </section>
+
+        <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  
+        <script src="assets/parallax/jarallax.js"></script>  
+        <script src="assets/smoothscroll/smooth-scroll.js"></script>  
+        <script src="assets/ytplayer/index.js"></script>  
+        <script src="assets/vimeoplayer/player.js"></script>  
+        <script src="assets/dropdown/js/navbar-dropdown.js"></script>  
+        <script src="assets/theme/js/script.js"></script>  
+        <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
+            <a style="text-align: center;">
+                <i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i>
+            </a>
         </div>
-        <!--footer top end-->
-        <hr class="custom-hr">
-        <!--footer copyright start-->
-        <div class="row align-items-center justify-content-between">
-            <div class="col-md-5 col-lg-5">
-                <p class="copyright-text pb-0 mb-0">
-                    Copyrights &copy; 2021. All
-                    rights reserved.
-                </p>
-            </div>
-            <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
-                <ul class="list-inline policy-nav text-right">
-                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                    <li class="list-inline-item"><a href="#">Terms and Conditions</a></li>
-                </ul>
-            </div>
-        </div>
-        <!--footer copyright end-->
-    </div>
-</footer>
-<!--footer section end-->
-
-<!--bottom to top button start-->
-<button class="scroll-top scroll-to-target" data-target="html">
-    <span class="fas fa-hand-point-up"></span>
-</button>
-<!--bottom to top button end-->
-
-
-<!--jQuery-->
-<script src="{{ URL::asset('assets/js/jquery-3.4.1.min.js') }}"></script>
-<!--Popper js-->
-<script src="{{ URL::asset('assets/js/popper.min.js') }}"></script>
-<!--Bootstrap js-->
-<script src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
-<!--Magnific popup js-->
-<script src="{{ URL::asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-<!--jquery easing js-->
-<script src="{{ URL::asset('assets/js/jquery.easing.min.js') }}"></script>
-<!--datatable js-->
-<script src="{{ URL::asset('assets/js/datatables.min.js') }}"></script>
-<!--wow js-->
-<script src="{{ URL::asset('assets/js/wow.min.js') }}"></script>
-<!--owl carousel js-->
-<script src="{{ URL::asset('assets/js/owl.carousel.min.js') }}"></script>
-<!--countdown js-->
-<script src="{{ URL::asset('assets/js/jquery.countdown.min.js') }}"></script>
-<!--custom js-->
-<script src="{{ URL::asset('assets/js/scripts.js') }}"></script>
-</body>
+  </body>
 </html>

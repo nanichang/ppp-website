@@ -16,7 +16,7 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/',[PagesController::class, 'home'])->name('pages.home');
-Route::get('/about', [PagesController::class, 'about'])->name('pages.about');
+Route::get('/what-we-do', [PagesController::class, 'about'])->name('pages.about');
 
 Route::get('/board', [PagesController::class, 'board'])->name('pages.board');
 Route::get('/management', [PagesController::class, 'management'])->name('pages.management');

@@ -26,6 +26,9 @@
                                     stroke-width: 21px;
                                     fill-rule: evenodd;
                                 }
+                                .cls-1:hover {
+                                    fill:#9ecd9f
+                                }
                                 </style>
                             </defs>
                             

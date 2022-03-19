@@ -1,5 +1,6 @@
 @extends('layout.master')
 
+
 @section('content')
 
     <section data-bs-version="5.1" class="header19 cid-sZLj9oPRSf carousel slide" id="header19-15" data-bs-ride="carousel">
@@ -216,7 +217,7 @@
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
+    <!-- <section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6">
@@ -268,7 +269,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section data-bs-version="5.1" class="features1 cid-sZLI6Fmvd7 mbr-parallax-background" id="features1-1a">
         
@@ -320,97 +321,133 @@
                                 }
 
                                 .cls-6 {
-                                    fill: #af2e09;
+                                    fill: #F8F8FF;
+                                    stroke: #af2e09;
                                 }
 
                                 .cls-6:hover {
-                                    fill: #F8F8FF;
+                                    fill: #af2e09;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-7 {
-                                    fill: #ff8a00;
+                                    fill: #F8F8FF;
+                                    stroke: #ff8a00;
                                 }
 
                                 .cls-7:hover {
-                                    fill: #F8F8FF;
+                                    fill: #ff8a00;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-8 {
-                                    fill: #ffdb96;
+                                    fill: #F8F8FF;
+                                    stroke: #ffdb96;
                                 }
 
                                 .cls-8:hover {
-                                    fill: #F8F8FF;
+                                    fill: #ffdb96;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-9 {
-                                    fill: #ffe400;
+                                    fill: #F8F8FF;
+                                    stroke: #ffe400
                                 }
 
                                 .cls-9:hover {
-                                    fill: #F8F8FF;
+                                    fill: #ffe400;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-10 {
-                                    fill: #186582;
+                                    fill: #F8F8FF;
                                 }
 
                                 .cls-10:hover {
-                                    fill: #F8F8FF;
+                                    fill: #186582;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-11 {
-                                    fill: #0b2453;
+                                    stroke: #0b2453;
+                                    fill: #F8F8FF;
                                 }
 
                                 .cls-11:hover {
-                                    fill: #F8F8FF;
+                                    fill: #0b2453;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-12 {
-                                    fill: #127ea2;
+                                    stroke: #127ea2;
+                                    fill: #F8F8FF;
                                 }
 
                                 .cls-12:hover {
-                                    fill: #F8F8FF;
+                                    fill: #127ea2;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-13 {
-                                    fill: #194387;
+                                    fill: #F8F8FF;
+                                    stroke: #194387
                                 }
 
                                 .cls-13:hover {
-                                    fill: #F8F8FF;
+                                    fill: #194387;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-14 {
-                                    fill: #09532e;
+                                    fill: #F8F8FF;
+                                    stroke: 09532e
                                 }
 
                                 .cls-14:hover {
-                                    fill: #F8F8FF;
+                                    fill: #09532e;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-15 {
-                                    fill: #41b186;
+                                    fill: #F8F8FF;
+                                    stroke: #41b186;
                                 }
 
                                 .cls-15:hover {
-                                    fill: #F8F8FF;
+                                    fill: #41b186;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-16 {
-                                    fill: #127752;
-                                }
-                                .cls-16:hover {
                                     fill: #F8F8FF;
+                                    stroke: #41b186
+                                }
+
+                                .cls-16:hover {
+                                    fill: #127752;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
 
                                 .cls-17 {
-                                    fill: #329b34;
+                                    fill: #F8F8FF;
+                                    stroke: #329b34
                                 }
                                 .cls-17:hover {
-                                    fill: #F8F8FF;
+                                    fill: #329b34;
+                                    stroke: #F8F8FF;
+                                    stroke-width: 5px;
                                 }
                             </style>
                         </defs>
@@ -467,23 +504,19 @@
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="content4 cid-sZLJG3bVhi" id="content4-1c">
-        
-        
+    <!-- <section data-bs-version="5.1" class="content4 cid-sZLJG3bVhi" id="content4-1c">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="title col-md-12 col-lg-9">
                     <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5">
                         <strong>WHY PPP IN PLATEAU STATE</strong>
                     </h3>
-                    
-                    
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section data-bs-version="5.1" class="features16 cid-sZLLNBWjjU" id="features17-1d">
+    <!-- <section data-bs-version="5.1" class="features16 cid-sZLLNBWjjU" id="features17-1d">
         <div class="container">
             <div class="content-wrapper">
                 <div class="row align-items-center">
@@ -509,70 +542,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section data-bs-version="5.1" class="footer4 cid-sZKMUAT83K" once="footers" id="footer4-w">
-        <div class="container">
-            <div class="row mbr-white">
-                <div class="col-6 col-lg-3">
-                    <div class="media-wrap col-md-8 col-12">
-                        <a href="https://mobiri.se/">
-                            <img src="assets/images/logo2a-397x386.png" alt="Mobirise Website Builder">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Related Institutions</strong></h5>
-                    <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                        Mobirise is a free offline app for
-                        Windows and Mac to easily create small/medium websites, landing pages, online resumes and
-                        portfolios.</p>
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
-                        <strong>Follow Us</strong>
-                    </h5>
-                    <div class="social-row display-7">
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-facebook"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-twitter"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-instagram"></span>
-                            </a>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                        <strong>Mobirise Help</strong>
-                    </h5>
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap">Help Center</li>
-                        <li class="mbr-text item-wrap">Mobirise Forums</li>
-                        <li class="mbr-text item-wrap">Mobirise Kit</li>
-                        <li class="mbr-text item-wrap">Our site</li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                        <strong>Mobirise Extensions</strong>
-                    </h5>
-                    <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap">Code Editor</li>
-                        <li class="mbr-text item-wrap">Form Builder</li>
-                        <li class="mbr-text item-wrap">Popup Builder</li>
-                        <li class="mbr-text item-wrap">Enterprise</li>
-                    </ul>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+    
 @endsection

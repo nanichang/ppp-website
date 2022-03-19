@@ -1,81 +1,122 @@
 @extends('layout.master')
 
-@section('content')
-    <section class="hero-section ptb-100 gradient-overlay" style="background: url('assets/img/header-bg-5.jpeg')no-repeat center center / cover">
-        <div class="hero-bottom-shape-two" style="background: url('assets/img/hero-bottom-shape.svg')no-repeat bottom center"></div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
-                        <h1 class="text-white mb-0">Our Publications</h1>
-                        <div class="custom-breadcrumb">
-                            <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                                <!-- <li class="list-inline-item breadcrumb-item"><a href="#">Pages</a></li> -->
-                                <li class="list-inline-item breadcrumb-item active">Our Publications</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+@section('css') 
+    <link rel="stylesheet" href="{{ URL::asset('assets/css/dflip.min.css') }}">
+@endsection
 
-    <section class="product-section ptb-100">
+@section('content')
+   
+
+    <section class="product-section" style="margin-top:100px">
         <div class="container">
-            
-            <!--start product carousel-->
-            <div class="product-wrap pt-4">
-                <div class="product-carousel owl-carousel owl-theme dot-indicator owl-loaded owl-drag">
-                    
+            <div class="card-group">
                 
-                    
-                <div class="owl-stage-outer">
-                    <div class="owl-stage" style="transform: translate3d(-1710px, 0px, 0px); transition: all 0.25s ease 0s; width: 3990px;">
-                    <div class="owl-item cloned" style="width: 255px; margin-right: 30px;">
-                        <div class="item">
-                            <div class="single-product rounded gray-light-bg">
-                                <img src="assets/img/product-1.png" class="img-fluid" alt="product">
-                                <div class="product-info text-center py-4 px-3">
-                                    <h4 class="mb-1">Publication 1</h4>
-                                    <h5 class="product-price">
-                                <a href="#" class="btn cart-btn">View Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item cloned" style="width: 255px; margin-right: 30px;">
-                    <div class="item">
-                        <div class="single-product rounded gray-light-bg">
-                            <img src="assets/img/product-1.png" class="img-fluid" alt="product">
-                            <div class="product-info text-center py-4 px-3">
-                                <h4 class="mb-1">Publication</h4>
-                                <a href="#" class="btn cart-btn">View Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                </div>
-                    <div class="owl-nav disabled">
-                        <button type="button" role="presentation" class="owl-prev">
-                            <span aria-label="Previous">‹</span>
-                        </button>
-                        <button type="button" role="presentation" class="owl-next">
-                            <span aria-label="Next">›</span>
-                        </button>
-                    </div>
-                    <div class="owl-dots">
-                        <button role="button" class="owl-dot active">
-                            <span></span>
-                        </button>
-                        <button role="button" class="owl-dot">
-                            <span></span>
-                        </button>
+                <div class="card">
+                    <div class="card-body">
+                    <div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> BCG Investor Deck</div >
                     </div>
                 </div>
             </div>
-            <!--end product carousel-->
         </div>
     </section>
+@endsection
+
+@section('js')
+<script src="{{ URL::asset('assets/js/jquery.matchHeight.js') }}"></script>
+<script src="{{ URL::asset('assets/js/dflip.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pdf.combined.js') }}"></script>
+<script>
+	$(function () {
+		$('.card.no-overflow').matchHeight({
+			byRow: true,
+			property: 'height',
+			target: null,
+			remove: false
+		});
+	});
+
+	console.log($(".section img"));
+	$(".section img").click(function () {
+		$(".lightbox").fadeIn(300);
+		$(".lightbox").append("<img src='" + $(this).attr("src") + "' alt='" + $(this).attr("alt") + "' />");
+		$(".filter").css("background-image", "url(" + $(this).attr("src") + ")");
+		/*$(".title").append("<h1>" + $(this).attr("alt") + "</h1>");*/
+		$("html").css("overflow", "hidden");
+		if ($(this).is(":last-child")) {
+			$(".arrowr").css("display", "none");
+			$(".arrowl").css("display", "block");
+		} else if ($(this).is(":first-child")) {
+			$(".arrowr").css("display", "block");
+			$(".arrowl").css("display", "none");
+		} else {
+			$(".arrowr").css("display", "block");
+			$(".arrowl").css("display", "block");
+		}
+	});
+
+	$(".close").click(function () {
+		$(".lightbox").fadeOut(300);
+		$(".lightbox h1").remove();
+		$(".lightbox img").remove();
+		$("html").css("overflow", "auto");
+	});
+
+	$(document).keyup(function (e) {
+		if (e.keyCode == 27) {
+			$(".lightbox").fadeOut(300);
+			$(".lightbox img").remove();
+			$("html").css("overflow", "auto");
+		}
+	});
+
+	$(".arrowr").click(function () {
+		var imgSrc = $(".lightbox img").attr("src");
+		var search = $("section").find("img[src$='" + imgSrc + "']");
+		var newImage = search.next().attr("src");
+		/*$(".lightbox img").attr("src", search.next());*/
+		$(".lightbox img").attr("src", newImage);
+		$(".filter").css("background-image", "url(" + newImage + ")");
+
+		if (!search.next().is(":last-child")) {
+			$(".arrowl").css("display", "block");
+		} else {
+			$(".arrowr").css("display", "none");
+		}
+	});
+
+	$(".arrowl").click(function () {
+		var imgSrc = $(".lightbox img").attr("src");
+		var search = $("section").find("img[src$='" + imgSrc + "']");
+		var newImage = search.prev().attr("src");
+		/*$(".lightbox img").attr("src", search.next());*/
+		$('.lightbox img').attr("src", newImage);
+		$(".filter").css("background-image", "url(" + newImage + ")");
+
+		if (!search.prev().is(":first-child")) {
+			$(".arrowr").css("display", "block");
+		} else {
+			$(".arrowl").css("display", "none");
+		}
+	});
+
+	let iframe = $('.videos-header iframe');
+	let videoHeader = $('.videos-header > picture');
+	let frameButton = $('.frameToggle');
+	let frameClose = $('.frameBTN');
+	frameButton.each(function () {
+		$(this).on("click", function (event) {
+			event.preventDefault();
+			console.log($(this));
+			let dataUrl = $(this).attr("data-url");
+			iframe.attr('src', dataUrl);
+			videoHeader.removeClass('noframe')
+		});
+	});
+	frameClose.on("click", function (event) {
+		event.preventDefault();
+		iframe.attr('src', '');
+		videoHeader.addClass('noframe')
+	});
+
+</script>
 @endsection

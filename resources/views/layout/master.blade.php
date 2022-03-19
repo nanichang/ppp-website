@@ -104,8 +104,8 @@
             <div class="row mbr-white">
                 <div class="col-6 col-lg-3">
                     <div class="media-wrap col-md-8 col-12">
-                        <a href="https://mobiri.se/">
-                            <img src="assets/images/logo2a-397x386.png" alt="Mobirise Website Builder">
+                        <a href="/">
+                            <img src="assets/images/logo2a-397x386.png" alt="Logo">
                         </a>
                     </div>
                 </div>

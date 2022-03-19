@@ -212,15 +212,14 @@ figure[mbr-media-size] {
   transition: width 0.1s;
 }
 
-img,
-iframe {
+img, iframe {
   display: block;
   width: 100%;
 }
 
 .card {
   background-color: transparent;
-  border: none;
+  /* border: none; */
 }
 
 .card-box {

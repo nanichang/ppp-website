@@ -68,7 +68,6 @@
                                     <button type="submit" class="btn btn-outline-success" id="btnContactUs">
                                         Send Message
                                     </button>
-                                    <!-- <button type="button" class="btn btn-outline-success">Success</button> -->
                                 </div>
                             </div>
                         </form>
@@ -78,8 +77,6 @@
                     <div class="contact-us-content" style="padding-top:40px;">
                         <h2>Looking for a our office?</h2>
                         <hr class="my-5">
-
-                        <!-- <h5>Our Headquarters</h5> -->
                         <address>
                             New Government House <br>
                             Little Rayfield Jos, Plateau State

@@ -217,59 +217,7 @@
         </div>
     </section>
 
-    <!-- <section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
-                    <div class="card-wrapper">
-                        <div class="card-box align-left">
-                            <h4 class="card-title mbr-fonts-style mb-4 display-2">
-                                <strong>Why Plateau?</strong>
-                            </h4>
-                            <p class="mbr-text mbr-fonts-style mb-4 display-7">
-                                Public Private Partnerships (PPPs) are contracts whereby the <br>private Sector is engaged by the public sector to manage <br>public services or  assets and/or to design, build, finance <br>and operate infrastructure to enhance efficiency, broaden <br>access, and improve the quality of public services or assets.</p>
-                            <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="https://mobiri.se">Learn More</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="item mbr-flex">
-                        <div class="icon-box">
-                            <span class="mbr-iconfont mobi-mbri-globe-2 mobi-mbri"></span>
-                        </div>
-                        <div class="text-box">
-                            <h4 class="icon-title mbr-black mbr-fonts-style display-7">
-                                <strong>No Coding</strong>
-                            </h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-4">You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.</h5>
-                        </div>
-                    </div>
-                    <div class="item mbr-flex">
-                        <div class="icon-box">
-                            <span class="mbr-iconfont mobi-mbri-update mobi-mbri"></span>
-                        </div>
-                        <div class="text-box">
-                            <h4 class="icon-title mbr-black mbr-fonts-style display-7">
-                                <strong>Mobile Friendly</strong>
-                            </h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-4">All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.</h5>
-                        </div>
-                    </div>
-                    <div class="item mbr-flex">
-                        <div class="icon-box">
-                            <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
-                        </div>
-                        <div class="text-box">
-                            <h4 class="icon-title mbr-black mbr-fonts-style display-7">
-                                <strong>Unique Styles</strong>
-                            </h4>
-                            <h5 class="icon-text mbr-black mbr-fonts-style display-4">Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+   
 
     <section data-bs-version="5.1" class="features1 cid-sZLI6Fmvd7 mbr-parallax-background" id="features1-1a">
         
@@ -503,6 +451,105 @@
             </div>
         </div>
     </section>
+
+    <section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-12">
+                    <div class="card-wrapper">
+                        <div class="card-box align-left">
+                            <h4 class="card-title mbr-fonts-style mb-4 display-2">
+                                <strong>Why Plateau?</strong>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="item mbr-flex">
+                                <div class="icon-box">
+                                    <span class="mbr-iconfont mobi-mbri-globe mobi-mbri"></span>
+                                </div>
+                                <div class="text-box">
+                                    <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                        <strong>Climate</strong>
+                                    </h4>
+                                    <h5 class="icon-text mbr-black mbr-fonts-style display-4">
+                                        Jos Plateau is the coldest state and elevated land area in Nigeria with a near temperate climate with average temperature between 18°C and 22°C.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="item mbr-flex">
+                                <div class="icon-box">
+                                    <span class="mbr-iconfont mobi-mbri-shopping-basket mobi-mbri"></span>
+                                </div>
+                                <div class="text-box">
+                                    <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                        <strong>Agriculture</strong>
+                                    </h4>
+                                    <h5 class="icon-text mbr-black mbr-fonts-style display-4">
+                                        An unmatched ability for producing diverse exotic crops, fruits, vegetables, and livestock at scale compared to all other states in Nigeria.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="item mbr-flex">
+                                <div class="icon-box">
+                                    <span class="mbr-iconfont mobi-mbri-update mobi-mbri"></span>
+                                </div>
+                                <div class="text-box">
+                                    <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                        <strong>Minerals</strong>
+                                    </h4>
+                                    <h5 class="icon-text mbr-black mbr-fonts-style display-4">
+                                        There are rich deposits of a variety of over 30+ minerals of high quality that has earned Plateau State the name “The major hub of mining activities in Nigeria.”
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="item mbr-flex">
+                                <div class="icon-box">
+                                    <span class="mbr-iconfont mobi-mbri-home mobi-mbri"></span>
+                                </div>
+                                <div class="text-box">
+                                    <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                        <strong>Tourism</strong>
+                                    </h4>
+                                    <h5 class="icon-text mbr-black mbr-fonts-style display-4">
+                                        With over 50+ ethnic groups, there’s a great diversity in culture, festivals and cuisines and numerous tourist attractions.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="item mbr-flex">
+                                <div class="icon-box">
+                                    <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
+                                </div>
+                                <div class="text-box">
+                                    <h4 class="icon-title mbr-black mbr-fonts-style display-7">
+                                        <strong>Governance</strong>
+                                    </h4>
+                                    <h5 class="icon-text mbr-black mbr-fonts-style display-4">
+                                        Winner of the Open Government Partnership Award for Increasing Transparency and Accountability in Extractives at the 2021 OGP Local Innovation Awards.
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
 
     <!-- <section data-bs-version="5.1" class="content4 cid-sZLJG3bVhi" id="content4-1c">
         <div class="container">

@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" /> -->
         <link rel="stylesheet" href="assets/css/custom.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         @yield('css')
     </head>
     <body>
@@ -63,8 +63,12 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link link text-primary dropdown-toggle display-4" href="/" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Agency</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown-784">
-                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.about') }}">What We Do</a>
-                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.board') }}">The Team</a>
+                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.about') }}">
+                                        What We Do
+                                    </a>
+                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.board') }}">
+                                        The Team
+                                    </a>
                                 </div>
                             <li class="nav-item">
                                 <a class="nav-link link text-primary display-4" href="{{ route('pages.discover') }}">
@@ -100,64 +104,64 @@
         @yield('content')
 
         <section data-bs-version="5.1" class="footer4 cid-sZKMUAT83K" once="footers" id="footer4-w">
-        <div class="container">
-            <div class="row mbr-white">
-                <div class="col-6 col-lg-3">
-                    <div class="media-wrap col-md-8 col-12">
-                        <a href="/">
-                            <img src="assets/images/logo2a-397x386.png" alt="Logo">
-                        </a>
+            <div class="container">
+                <div class="row mbr-white">
+                    <div class="col-6 col-lg-3">
+                        <div class="media-wrap col-md-8 col-12">
+                            <a href="/">
+                                <img src="assets/images/logo2a-397x386.png" alt="Logo">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Related Institutions</strong></h5> -->
-                    <!-- <p class="mbr-text mbr-fonts-style mb-4 display-4"> </p> -->
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
-                        <strong>Follow Us</strong>
-                    </h5>
-                    <div class="social-row display-7">
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-facebook"></span>
-                            </a>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <!-- <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Related Institutions</strong></h5> -->
+                        <!-- <p class="mbr-text mbr-fonts-style mb-4 display-4"> </p> -->
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+                            <strong>Follow Us</strong>
+                        </h5>
+                        <div class="social-row display-7">
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                </a>
+                            </div>
+                            
                         </div>
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-twitter"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-instagram"></span>
-                            </a>
-                        </div>
-                        
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                        <strong>RELATED INSTITUTIONS</strong>
-                    </h5>
-                    <ul class="list mbr-fonts-style display-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                            <strong>RELATED INSTITUTIONS</strong>
+                        </h5>
+                        <ul class="list mbr-fonts-style display-4">
+                            <li class="mbr-text item-wrap">PICTDA</li>
+                            <li class="mbr-text item-wrap">PSIRS</li>
+                            <li class="mbr-text item-wrap">PIPC</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                            <strong>Mobirise Extensions</strong>
+                        </h5>
+                        <ul class="list mbr-fonts-style display-4">
                         <li class="mbr-text item-wrap">PICTDA</li>
-                        <li class="mbr-text item-wrap">PSIRS</li>
-                        <li class="mbr-text item-wrap">PIPC</li>
-                    </ul>
+                            <li class="mbr-text item-wrap">PSIRS</li>
+                            <li class="mbr-text item-wrap">PIPC</li>
+                        </ul>
+                    </div>
+                    
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                        <strong>Mobirise Extensions</strong>
-                    </h5>
-                    <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap">PICTDA</li>
-                        <li class="mbr-text item-wrap">PSIRS</li>
-                        <li class="mbr-text item-wrap">PIPC</li>
-                    </ul>
-                </div>
-                
             </div>
-        </div>
-    </section>
+        </section>
 
         <section class="display-7 navbar-fixed-bottom" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
             <a href="https://mobiri.se/359463" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;">
@@ -183,5 +187,5 @@
                 <i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i>
             </a>
         </div>
-  </body>
+    </body>
 </html>

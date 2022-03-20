@@ -41,7 +41,9 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-8">
                     <div class="section-heading text-center mb-4">
-                        <h2>Meet Our Team Members</h2>
+                        <h6 class="card-title mbr-fonts-style display-5">
+                            <strong>Meet Our Team Members</strong>
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -54,7 +56,7 @@
                 <div class="col-6 col-md-3">
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile">
+                        <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
                             <p>Director General</p>
                         </div>
@@ -63,7 +65,7 @@
                 <div class="col-6 col-md-3">
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile">
+                        <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
                             <p>Director of Finance & Supplies</p>
                         </div>
@@ -72,7 +74,7 @@
                 <div class="col-6 col-md-3">
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile">
+                        <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
                             <p>Director of Internal Audit</p>
                         </div>
@@ -81,7 +83,7 @@
                 <div class="col-6 col-md-3">
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile">
+                        <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
                             <p>Acting Director of Administration</p>
                         </div>
@@ -91,7 +93,7 @@
                 <div class="col-6 col-md-3">
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile">
+                        <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
                             <p>Executive Assistant</p>
                         </div>
@@ -101,7 +103,7 @@
                 <div class="col-6 col-md-3">
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile">
+                        <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
                             <p>Legal Support</p>
                         </div>

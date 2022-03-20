@@ -7,7 +7,7 @@
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-4">
                         <div class="image-wrapper">
-                            <img src="assets/images/gov-752x1050.png" alt="Mobirise Website Builder">
+                            <img src="assets/images/logo2a-397x386.png" alt="Mobirise Website Builder">
                         </div>
                     </div>
                     <div class="col-12 col-lg">

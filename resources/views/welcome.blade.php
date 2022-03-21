@@ -4,7 +4,7 @@
 @section('content')
 
     <section data-bs-version="5.1" class="header19 cid-sZLj9oPRSf carousel slide" id="header19-15" data-bs-ride="carousel">
-        <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(40, 120, 26);">
+        <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(40, 120, 26); min-height:725px;">
         </div>
 
         <div class="carousel-indicators">
@@ -220,8 +220,6 @@
    
 
     <section data-bs-version="5.1" class="features1 cid-sZLI6Fmvd7 mbr-parallax-background" id="features1-1a">
-        
-
         <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(40, 120, 26);">
         </div>
         <div class="container">
@@ -550,6 +548,7 @@
             </div>
         </div>
     </section> 
+    
 
     <!-- <section data-bs-version="5.1" class="content4 cid-sZLJG3bVhi" id="content4-1c">
         <div class="container">

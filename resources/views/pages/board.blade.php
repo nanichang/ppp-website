@@ -57,7 +57,7 @@
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
+                            <h4><b>Felix Rwang-Dung</b></h4>
                             <p>Director General</p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
+                            <h4><b>Rose B. David</b></h4>
                             <p>Director of Finance & Supplies</p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
+                            <h4><b>Barry Calvin</b></h4>
                             <p>Director of Internal Audit</p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
+                            <h4><b>Kurnap L. Gambo</b></h4>
                             <p>Acting Director of Administration</p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
                             <h4><b>John Doe</b></h4>
-                            <p>Executive Assistant</p>
+                            <p>Stacy Benedict</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
+                            <h4><b>Mantim Wuyep</b></h4>
                             <p>Legal Support</p>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                     <div class="card profile-card">
                         <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
                         <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
+                            <h4><b>David C. Dung</b></h4>
                             <p>Projects Support</p>
                         </div>
                     </div>

@@ -2,6 +2,22 @@
 
 @section('css') 
     <link rel="stylesheet" href="{{ URL::asset('assets/css/dflip.min.css') }}">
+	<style>
+		.modal-dialog {
+			max-width: 800px;
+			margin: 30px auto;
+		}
+
+		.modal-body {
+			position:relative;
+			padding:0px;
+		}
+		.btn-close {
+			position:absolute;
+			right:-30px;
+			top:0;
+		}
+	</style>
 @endsection
 
 @section('content')
@@ -30,7 +46,40 @@
 			</div>
         </div>
     </section>
+	
+	<section class=" container" style="margin-bottom:100px;">
+        <div class="row">
+			<div class="col-4 col-md-2">
+				<div class="card profile-card">
+					<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/ArK9YRKiTAQ" data-bs-target="#myModal">
+						<img src="assets/images/play.png" alt="" />
+					
+					</button>
+					Investment opportunities In Plateau State
+				</div>
+			</div>
+        </div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+						</button>        
+							<!-- 16:9 aspect ratio -->
+						<div class="ratio ratio-16x9">
+							<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+						</div>
+
+					</div>
+				</div>
+			</div> 
+		</div>
+
+    </section>
 @endsection
+
 
 @section('js')
 	<script src="{{ URL::asset('assets/js/jquery.matchHeight.js') }}"></script>
@@ -128,6 +177,26 @@
 			iframe.attr('src', '');
 			videoHeader.addClass('noframe')
 		});
+
+
+		$(document).ready(function() {
+			// Gets the video src from the data-src on each button
+			var $videoSrc;  
+			$('.video-btn').click(function() {
+				$videoSrc = $(this).data( "src" );
+			});
+			console.log($videoSrc);
+			// when the modal is opened autoplay it  
+			$('#myModal').on('shown.bs.modal', function (e) {
+				$("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+			})
+			// stop playing the youtube video when I close the modal
+			$('#myModal').on('hide.bs.modal', function (e) {
+				$("#video").attr('src',$videoSrc); 
+			})
+		});
+
+
 
 	</script>
 @endsection

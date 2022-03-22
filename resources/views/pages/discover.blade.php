@@ -14,7 +14,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-12">
-                    <div class="map-update-wrap position-relative rounded shadow" style="padding:20px">
+                    <div class="map-update-wrap position-relative rounded shadow" style="padding:50px">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12072 12073">
     
                             <defs>
@@ -77,5 +77,9 @@
             </div>
         </div>
     </section>
+
+@endsection
+
+@section('js') 
 
 @endsection

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Lga;
 
 class PagesController extends Controller
 {
@@ -23,7 +24,12 @@ class PagesController extends Controller
     }
 
     public function discover() {
-        return view('pages.discover');
+        $lgas = Lga::with('lga_data')->get();
+        return view('pages.discover', compact('lgas'));
+    }
+
+    public function project() {
+        return view('pages.project');
     }
 
     public function publications() {

@@ -46,38 +46,54 @@
 			</div>
         </div>
     </section>
-	
-	<section class=" container" style="margin-bottom:100px;">
-        <div class="row">
-			<div class="col-4 col-md-2">
-				<div class="card profile-card">
-					<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/ArK9YRKiTAQ" data-bs-target="#myModal">
-						<img src="assets/images/play.png" alt="" />
-					
-					</button>
-					Investment opportunities In Plateau State
+
+	<section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-12">
+                    <div class="card-wrapper">
+                        <div class="card-box align-left">
+                            <h4 class="card-title mbr-fonts-style mb-4 display-2">
+                                <strong>Video Gallery</strong>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-12">
+                    <div class="row">
+						<div class="col-6 col-md-3">
+							<div class="card profile-card">
+								<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/ArK9YRKiTAQ" data-bs-target="#myModal">
+									<img src="assets/images/play.png" alt="" />
+								
+								</button>
+								<div class="profile text-center">
+									<p>Investment opportunities In Plateau State</p>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+					</button>        
+						<!-- 16:9 aspect ratio -->
+					<div class="ratio ratio-16x9">
+						<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+					</div>
+
 				</div>
 			</div>
-        </div>
-
-		<!-- Modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-body">
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-						</button>        
-							<!-- 16:9 aspect ratio -->
-						<div class="ratio ratio-16x9">
-							<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-						</div>
-
-					</div>
-				</div>
-			</div> 
-		</div>
-
-    </section>
+		</div> 
+	</div>
 @endsection
 
 

@@ -55,11 +55,11 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link link text-primary display-4" href="{{ route('pages.home') }}">
                                     Home
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link link text-primary dropdown-toggle display-4" href="/" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Agency</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown-784">

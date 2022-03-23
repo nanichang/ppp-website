@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('css') 
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/dflip.min.css') }}">
+    <link rel="stylesheet" href="assets/css/dflip.min.css">
 	<style>
 		.modal-dialog {
 			max-width: 800px;

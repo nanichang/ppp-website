@@ -23,3 +23,7 @@
 .mt-100 {
     margin-top: 100px;
 }
+
+.carousel-caption {   
+    bottom: 21.25rem !important;
+}

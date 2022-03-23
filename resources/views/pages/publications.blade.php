@@ -44,6 +44,41 @@
 					</div >
 				</div>
 			</div>
+			<div class="col-3 col-md-2">
+				<div class="card profile-card">
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
+						BCG Investor Deck
+					</div >
+				</div>
+			</div>
+			<div class="col-3 col-md-2">
+				<div class="card profile-card">
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
+						BCG Investor Deck
+					</div >
+				</div>
+			</div>
+			<div class="col-3 col-md-2">
+				<div class="card profile-card">
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
+						BCG Investor Deck
+					</div >
+				</div>
+			</div>
+			<div class="col-3 col-md-2">
+				<div class="card profile-card">
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
+						BCG Investor Deck
+					</div >
+				</div>
+			</div>
+			<div class="col-3 col-md-2">
+				<div class="card profile-card">
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
+						BCG Investor Deck
+					</div >
+				</div>
+			</div>
         </div>
     </section>
 
@@ -61,6 +96,17 @@
                 </div>
                 <div class="col-12 col-lg-12">
                     <div class="row">
+						<div class="col-6 col-md-3">
+							<div class="card profile-card">
+								<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/ArK9YRKiTAQ" data-bs-target="#myModal">
+									<img src="assets/images/play.png" alt="" />
+								
+								</button>
+								<div class="profile text-center">
+									<p>Investment opportunities In Plateau State</p>
+								</div>
+							</div>
+						</div>
 						<div class="col-6 col-md-3">
 							<div class="card profile-card">
 								<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/ArK9YRKiTAQ" data-bs-target="#myModal">

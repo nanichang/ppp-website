@@ -35,7 +35,7 @@
         </div>
     </section>
 
-	<section class=" container" style="margin-bottom:100px;">
+	<!-- <section class=" container" style="margin-bottom:100px;">
         <div class="row">
 			<div class="col-3 col-md-2">
 				<div class="card profile-card">
@@ -80,7 +80,7 @@
 				</div>
 			</div>
         </div>
-    </section>
+    </section> -->
 
 	<section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
         <div class="container">
@@ -144,9 +144,9 @@
 
 
 @section('js')
-	<script src="{{ URL::asset('assets/js/jquery.matchHeight.js') }}"></script>
-	<script src="{{ URL::asset('assets/js/dflip.min.js') }}"></script>
-	<script src="{{ URL::asset('assets/js/pdf.combined.js') }}"></script>
+	<script src="assets/js/jquery.matchHeight.js"></script>
+	<script src="assets/js/dflip.min.js"></script>
+	<script src="assets/js/pdf.combined.js"></script>
 	<script>
 		$(function () {
 			$('.card.no-overflow').matchHeight({

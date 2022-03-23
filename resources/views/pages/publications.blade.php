@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('css') 
-    <link rel="stylesheet" href="assets/css/dflip.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('assets/css/dflip.min.css') }}">
 	<style>
 		.modal-dialog {
 			max-width: 800px;
@@ -35,7 +35,7 @@
         </div>
     </section>
 
-	<!-- <section class=" container" style="margin-bottom:100px;">
+	<section class=" container" style="margin-bottom:100px;">
         <div class="row">
 			<div class="col-3 col-md-2">
 				<div class="card profile-card">
@@ -72,15 +72,8 @@
 					</div >
 				</div>
 			</div>
-			<div class="col-3 col-md-2">
-				<div class="card profile-card">
-					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
-						BCG Investor Deck
-					</div >
-				</div>
-			</div>
         </div>
-    </section> -->
+    </section>
 
 	<section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
         <div class="container">
@@ -144,9 +137,9 @@
 
 
 @section('js')
-	<script src="assets/js/jquery.matchHeight.js"></script>
-	<script src="assets/js/dflip.min.js"></script>
-	<script src="assets/js/pdf.combined.js"></script>
+	<script src="{{ URL::asset('assets/js/jquery.matchHeight.js') }}"></script>
+	<script src="{{ URL::asset('assets/js/dflip.min.js') }}"></script>
+	<script src="{{ URL::asset('assets/js/pdf.combined.js') }}"></script>
 	<script>
 		$(function () {
 			$('.card.no-overflow').matchHeight({

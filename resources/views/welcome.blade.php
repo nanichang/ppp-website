@@ -588,47 +588,4 @@
             </div>
         </div>
     </section> 
-    
-
-    <!-- <section data-bs-version="5.1" class="content4 cid-sZLJG3bVhi" id="content4-1c">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="title col-md-12 col-lg-9">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5">
-                        <strong>WHY PPP IN PLATEAU STATE</strong>
-                    </h3>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <section data-bs-version="5.1" class="features16 cid-sZLLNBWjjU" id="features17-1d">
-        <div class="container">
-            <div class="content-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-6">
-                        <div class="image-wrapper">
-                            <img src="assets/images/ppp-2-1160x795.png" alt="Mobirise Website Builder">
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg">
-                        <div class="text-wrapper">
-                            <h6 class="card-title mbr-fonts-style display-5">
-                                <strong>Easy and simple</strong>
-                            </h6>
-                            <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                                All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.</p>
-                            <div class="mbr-section-btn mt-3">
-                                <a class="btn btn-primary display-4" href="https://mobiri.se">
-                                    Learn more
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    
 @endsection

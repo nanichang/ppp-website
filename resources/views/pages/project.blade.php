@@ -18,51 +18,47 @@
 		color: #3e4555;
 		}
 
-.pricing1 .font-weight-medium {
-  font-weight: 500;
-}
+		.pricing1 .font-weight-medium {
+			font-weight: 500;
+		}
 
-.pricing1 .bg-light {
-  background-color: #f4f8fa !important;
-}
+		.pricing1 .bg-light {
+			background-color: #f4f8fa !important;
+		}
 
-.pricing1 .subtitle {
-  color: #8d97ad;
-  line-height: 24px;
-  font-size: 14px;
-}
+		.pricing1 .subtitle {
+			color: #8d97ad;
+			line-height: 24px;
+			font-size: 14px;
+		}
 
-.pricing1 h5 {
-    line-height: 22px;
-    font-size: 18px;
-}
+		.pricing1 h5 {
+			line-height: 22px;
+			font-size: 18px;
+		}
 
-.pricing1 .card.card-shadow {
-  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-}
+		.pricing1 .card.card-shadow {
+			-webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+			box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+		}
 
-.pricing1 .on-hover {
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-}
+		.pricing1 .on-hover {
+			-webkit-transition: 0.1s;
+			-o-transition: 0.1s;
+			transition: 0.1s;
+		}
 
-.pricing1 .on-hover:hover {
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -webkit-font-smoothing: antialiased;
-}
+		.pricing1 .on-hover:hover {
+			-ms-transform: scale(1.05);
+			transform: scale(1.05);
+			-webkit-transform: scale(1.05);
+			-webkit-font-smoothing: antialiased;
+		}
 
-
-
-
-
-	.pricing1 .display-5 {
-	font-size: 3rem;
-		color: #263238;
-	}
+		.pricing1 .display-5 {
+			font-size: 3rem;
+			color: #263238;
+		}
 
 	</style>
 @endsection

@@ -1,18 +1,24 @@
 .sector {
     padding: 5px;
     border: none;
-    cursor: pointer
+    cursor: pointer;
+    font-size: 65px;
 }
 
 .sector:hover {
-    background-color: #eee;
-    /* color: #416718; */
+    /* background-color: #416718; */
+    color: #416718;
     border-radius: 5%;
     opacity: 0.5;
+    z-index: 300;
 }
 
 .sector h4 {
-    color: #416718;
+    color: #fff;
+    z-index: 3000;
+}
+.card-box h4:hover {
+    color: #fff;
     z-index: 3000;
 }
 
@@ -25,7 +31,7 @@
 }
 
 .carousel-caption {   
-    bottom: 21.25rem !important;
+    bottom: 5.0rem !important;
 }
 
 .cid-t0VvFBaY4l {

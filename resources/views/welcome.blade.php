@@ -1,5 +1,12 @@
 @extends('layout.master')
 
+@section('css')
+    <style>
+        .carousel-caption {
+            text-align: left;
+        }
+    </style>
+@endsection
 
 @section('content')
 
@@ -21,22 +28,113 @@
                 <div class="carousel-item active">
                     <img src="{{ URL::asset('assets/images/2.jpg') }}" alt="Los Angeles" class="d-block w-100">
                     <div class="carousel-caption">
-                        <!-- <h3>Los Angeles</h3>
-                        <p>We had such a great time in LA!</p> -->
+                        <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
+                            <strong><br></strong>
+                            <strong>Plateau State Infrastructure Promotion and Regulatory Agency</strong>
+                        </h1>
+                        <p class="mbr-text mbr-white mbr-fonts-style display-7">
+                            (PUBLIC PRIVATE PARTNERSHIP OFFICE)
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ URL::asset('assets/images/b1.jpg') }}" alt="Chicago" class="d-block w-100">
                     <div class="carousel-caption">
-                        <!-- <h3>Los Angeles</h3>
-                        <p>We had such a great time in LA!</p> -->
+                        <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
+                            <strong><br></strong>
+                            <strong>Sustainable Economic Rebirth</strong>
+                        </h1>
+
+                        <div class="row pt-5 justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper">
+                                    <div class="card-box align-center sector">
+                                        <span class="mbr-iconfont mobi-mbri-shopping-basket mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            <strong>Agriculture</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper">
+                                    <div class="card-box align-center sector">
+                                        <span class="mbr-iconfont mobi-mbri-cloud mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            Natural Minerals
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper sector">
+                                    <div class="card-box align-center">
+                                        <span class="mbr-iconfont mobi-mbri-cash mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            <strong>Trade &amp; Commerce</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper sector">
+                                    <div class="card-box align-center">
+                                        <span class="mbr-iconfont mobi-mbri-map-pin mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Tourism &amp; Hospitality</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ URL::asset('assets/images/b2.jpg') }}" alt="New York" class="d-block w-100">
                     <div class="carousel-caption">
-                        <!-- <h3>Los Angeles</h3>
-                        <p>We had such a great time in LA!</p> -->
+                        <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
+                            <strong><br></strong>
+                            <strong>Physical Infrastructure Development</strong>
+                        </h1>
+
+                        <div class="row pt-5 justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper">
+                                    <div class="card-box align-center sector">
+                                        <span class="mbr-iconfont mobi-mbri-delivery mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            <strong>Transportation</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper">
+                                    <div class="card-box align-center sector">
+                                        <span class="mbr-iconfont mobi-mbri-extension mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            Industrial Processing Zone
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper sector">
+                                    <div class="card-box align-center">
+                                        <span class="mbr-iconfont mobi-mbri-wifi mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            <strong>Broadband &amp; Power</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper sector">
+                                    <div class="card-box align-center">
+                                        <span class="mbr-iconfont mobi-mbri-home mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Real Estate Development</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

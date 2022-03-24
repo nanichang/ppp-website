@@ -1,33 +1,7 @@
 @extends('layout.master')
 
 @section('css') 
-    <style>
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            transition: 0.3s;
-            /* width: 40%; */
-        }
-
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
-
-        .profile {
-            padding: 2px 16px;
-        }
-
-        .ptb-100 {
-            padding-top:100
-        }
-        .mtb-100 {
-            margin-top: 100px;
-            margin-botton: 100px;
-        }
-
-        img {
-            border-radius: 5px 5px 0 0;
-        }
-
+     <style>
         .profile-card {
             margin-top: 40px;
             margin-botton: 40px;
@@ -54,76 +28,306 @@
             </div>
         </div>
     </section>
-    <section class=" container" style="margin-bottom:100px;">
-        <div class="row">
-            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-            <div class="row">
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>Felix Rwang-Dung</b></h4>
-                            <p>Director General</p>
+
+    <section data-bs-version="5.1" class="team1 cid-t0WqHG1Yhx mbr-parallax-background" id="team1-1m">
+        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(187, 187, 187);">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- <div class="col-12">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                        <strong>Our Team</strong>
+                    </h3>
+                    
+                </div> -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
                         </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>Rose B. David</b></h4>
-                            <p>Director of Finance & Supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>Barry Calvin</b></h4>
-                            <p>Director of Internal Audit</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>Kurnap L. Gambo</b></h4>
-                            <p>Acting Director of Administration</p>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5"><strong>Felix Rwang-Dung</strong></h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4"><strong>Director General</strong></h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.</p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
 
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>John Doe</b></h4>
-                            <p>Stacy Benedict</p>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                <strong>Rose B. David</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                <strong>Director of Finance & Supplies</strong>
+                            </h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                            </p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
 
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>Mantim Wuyep</b></h4>
-                            <p>Legal Support</p>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                <strong>Barry Calvin</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                <strong>Director of Internal Audit</strong>
+                            </h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                            </p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-3">
-                    <div class="card profile-card">
-                        <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Avatar" style="width:100%">
-                        <div class="profile text-center">
-                            <h4><b>David C. Dung</b></h4>
-                            <p>Projects Support</p>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                <strong>Kurnap L. Gambo</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                <strong>Acting Director of Administration</strong>
+                            </h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                            </p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                <strong>Stacy Benedict</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                <strong>Executive Assistant</strong>
+                            </h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                            </p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                <strong>Mantim Wuyep</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                <strong>Legal Support</strong>
+                            </h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                            </p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card-wrap profile-card">
+                        <div class="image-wrap">
+                            <img src="{{ URL::asset('assets/images/img_avatar.png') }}" alt="Mobirise Website Builder">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                                <strong>David C. Dung</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                                <strong>Projects Support</strong>
+                            </h6>
+                            <!-- <p class="card-text mbr-fonts-style align-center display-7">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum diam eu tellus cursus.
+                            </p> -->
+                            <div class="social-row display-7">
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="soc-item">
+                                    <a href="" target="_blank">
+                                        <span class="mbr-iconfont socicon socicon-youtube"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+    
 @endsection

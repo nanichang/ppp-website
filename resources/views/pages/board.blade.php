@@ -36,14 +36,19 @@
 @endsection
 
 @section('content')
-    <section class="ptb-100" style="margin-top:100px;">
+    <section data-bs-version="5.1" class="info3 cid-t0VvFBaY4l mbr-parallax-background" id="info3-1k" style="z-index: 0; position: relative; ">
+        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(40, 120, 26);">
+        </div>
+
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-8">
-                    <div class="section-heading text-center mb-4">
-                        <h6 class="card-title mbr-fonts-style display-5">
-                            <strong>Meet Our Team Members</strong>
-                        </h6>
+                <div class="card col-12 col-lg-10">
+                    <div class="card-wrapper">
+                        <div class="card-box align-center">
+                            <h4 class="card-title mbr-fonts-style align-center mb-4 display-1"><strong>OUR TEAM</strong></h4>
+                            <p class="mbr-text mbr-fonts-style mb-4 display-7"></p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>

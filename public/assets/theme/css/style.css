@@ -83,13 +83,6 @@ strong {
   font-weight: bold;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   transition-delay: 9999s;
   -webkit-transition-property: background-color, color;
@@ -212,14 +205,15 @@ figure[mbr-media-size] {
   transition: width 0.1s;
 }
 
-img, iframe {
+img,
+iframe {
   display: block;
   width: 100%;
 }
 
 .card {
   background-color: transparent;
-  /* border: none; */
+  border: none;
 }
 
 .card-box {
@@ -964,8 +958,4 @@ blockquote {
 	padding: 0;
 	top: 0;
 	left: -2400px;
-}
-
-
-element.style {
 }

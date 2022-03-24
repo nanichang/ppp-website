@@ -43,7 +43,7 @@
                                 <img src="assets/images/logo2-95x95.png" alt="Mobirise Website Builder" style="height: 3rem;">
                             </a>
                         </span>
-                        <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-7" href="/">PPP OFFICE</a></span>
+                        <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-7" href="/">PPP AGENCY</a></span>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <div class="hamburger">
@@ -61,37 +61,37 @@
                                 </a>
                             </li> -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link link text-primary dropdown-toggle display-4" href="/" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Agency</a>
+                                <a class="nav-link link text-white dropdown-toggle display-4" href="/" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Agency</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown-784">
-                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.about') }}">
+                                    <a class="text-white dropdown-item display-4" href="{{ route('pages.about') }}">
                                         What We Do
                                     </a>
-                                    <a class="text-primary dropdown-item display-4" href="{{ route('pages.board') }}">
+                                    <a class="text-white dropdown-item display-4" href="{{ route('pages.board') }}">
                                         The Team
                                     </a>
                                 </div>
                             <li class="nav-item">
-                                <a class="nav-link link text-primary display-4" href="{{ route('pages.discover') }}">
+                                <a class="nav-link link text-white display-4" href="{{ route('pages.discover') }}">
                                     Discover Plateau
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-primary display-4" href="{{ route('pages.publications') }}">
+                                <a class="nav-link link text-white display-4" href="{{ route('pages.publications') }}">
                                     Media
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-primary display-4" href="{{ route('pages.project') }}">
+                                <a class="nav-link link text-white display-4" href="{{ route('pages.project') }}">
                                     Projects
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-primary display-4" href="">
+                                <a class="nav-link link text-white display-4" href="">
                                     Portal
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-primary display-4" href="{{ route('pages.contact') }}">
+                                <a class="nav-link link text-white display-4" href="{{ route('pages.contact') }}">
                                     Contacts
                                 </a>
                             </li>

@@ -1,0 +1,47 @@
+.sector {
+    padding: 5px;
+    border: none;
+    cursor: pointer
+}
+
+.sector:hover {
+    background-color: #eee;
+    /* color: #416718; */
+    border-radius: 5%;
+    opacity: 0.5;
+}
+
+.sector h4 {
+    color: #416718;
+    z-index: 3000;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.carousel-caption {   
+    bottom: 21.25rem !important;
+}
+
+.cid-t0VvFBaY4l {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+    background-image: url('../images/2.jpg');
+}
+
+.mbr-overlay {
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
+}

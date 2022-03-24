@@ -137,6 +137,57 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="carousel-item">
+                    <img src="{{ URL::asset('assets/images/b3.jpg') }}" alt="New York" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
+                            <strong><br></strong>
+                            <strong>Peace, Security, & Good Governance</strong>
+                        </h1>
+
+                        <div class="row pt-5 justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper">
+                                    <div class="card-box align-center sector">
+                                        <span class="mbr-iconfont mobi-mbri-smile-face mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            <strong>Entertainment &amp; Sports</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper">
+                                    <div class="card-box align-center sector">
+                                        <span class="mbr-iconfont mobi-mbri-hearth mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            Healthcare
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper sector">
+                                    <div class="card-box align-center">
+                                        <span class="mbr-iconfont mobi-mbri-protect mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                                            <strong>Security</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="card-wrapper sector">
+                                    <div class="card-box align-center">
+                                        <span class="mbr-iconfont mobi-mbri-briefcase mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
+                                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Education</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Left and right controls/icons -->

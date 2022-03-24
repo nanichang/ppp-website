@@ -21,6 +21,7 @@
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
             </div>
 
             <!-- The slideshow/carousel -->
@@ -513,7 +514,7 @@
                                         <strong>Climate</strong>
                                     </h4>
                                     <h5 class="icon-text mbr-black mbr-fonts-style display-4">
-                                        Jos Plateau is the coldest state and elevated land area in Nigeria with a near temperate climate with average temperature between 18°C and 22°C.
+                                    Jos Plateau is the coldest state with one of the highest elevated land areas in Nigeria. It has a near temperate climate with average temperature between 18°C and 22°C which influences destination choice in a country and as a result national and global tourist inflow.
                                     </h5>
                                 </div>
                             </div>
@@ -529,7 +530,7 @@
                                         <strong>Agriculture</strong>
                                     </h4>
                                     <h5 class="icon-text mbr-black mbr-fonts-style display-4">
-                                        An unmatched ability for producing diverse exotic crops, fruits, vegetables, and livestock at scale compared to all other states in Nigeria.
+                                        An unmatched ability of producing diverse exotic crops, fruits, vegetables, cut flowers and livestock at scale compared to every other state in Nigeria. 
                                     </h5>
                                 </div>
                             </div>
@@ -542,10 +543,10 @@
                                 </div>
                                 <div class="text-box">
                                     <h4 class="icon-title mbr-black mbr-fonts-style display-7">
-                                        <strong>Minerals</strong>
+                                        <strong>Natural Minerals</strong>
                                     </h4>
                                     <h5 class="icon-text mbr-black mbr-fonts-style display-4">
-                                        There are rich deposits of a variety of over 30+ minerals of high quality that has earned Plateau State the name “The major hub of mining activities in Nigeria.”
+                                        Plateau is the hub of mining in Nigeria which started as far back as 1902. Tin, Columbite and associated minerals have been exploited for over a century, thus Jos City is nicknamed “TIN CITY”. Over 1000 Mining Ponds have been identified in the state, some of which can be used for recreational, water supply and irrigation purposes.
                                     </h5>
                                 </div>
                             </div>
@@ -561,7 +562,7 @@
                                         <strong>Tourism</strong>
                                     </h4>
                                     <h5 class="icon-text mbr-black mbr-fonts-style display-4">
-                                        With over 50+ ethnic groups, there’s a great diversity in culture, festivals and cuisines and numerous tourist attractions.
+                                        With over 50+ ethnic groups, there's a great diversity in culture, festivals and cuisines and numerous tourist attractions. There are numerous tourist attractions in the state such as Water Falls, Rock Formations, Museums, etc.
                                     </h5>
                                 </div>
                             </div>

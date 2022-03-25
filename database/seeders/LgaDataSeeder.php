@@ -250,7 +250,7 @@ class LgaDataSeeder extends Seeder
                 "lga_festive_dates" => "Thaar (Nov)",
                 "lga_opportunities" => "Large scale production of Livestocks  and Yam for export purposes.",
                 "lga_attractions" => "N/A",
-                "lga_id" => 16
+                "lga_id" => 17
             ),
         );
 

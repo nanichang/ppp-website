@@ -52,8 +52,8 @@
 			</div>
 			<div class="col-3 col-md-2">
 				<div class="card profile-card">
-					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/BCG-Investor-deck.pdf" thumb="uploads/media/cover/first-cover.png"> 
-						BCG Investor Deck
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/Investing-in-Plateau-State.pdf" thumb="uploads/media/cover/investing-in-plateau.png"> 
+						Investing In Plateau State
 					</div >
 				</div>
 			</div>

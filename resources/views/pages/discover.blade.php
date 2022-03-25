@@ -96,5 +96,5 @@
 @endsection
 
 @section('js') 
-
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
 @endsection

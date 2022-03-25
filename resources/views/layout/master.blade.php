@@ -86,7 +86,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-white display-4" href="">
+                                <a class="nav-link link text-white display-4" href="https://ppp-procurement.herokuapp.com/" target="_blank">
                                     Portal
                                 </a>
                             </li>

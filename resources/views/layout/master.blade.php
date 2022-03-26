@@ -56,10 +56,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
                             <!-- <li class="nav-item">
-                                <a class="nav-link link text-primary display-4" href="{{ route('pages.home') }}">
-                                    Home
+                                <a class="nav-link link text-primary display-4" href="{{ route('pages.about') }}">
+                                    Agency
                                 </a>
-                            </li> -->
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link link text-white dropdown-toggle display-4" href="/" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Agency</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown-784">
@@ -70,6 +70,12 @@
                                         The Team
                                     </a>
                                 </div>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link link text-white display-4" href="{{ route('pages.about') }}">
+                                    Agency
+                                </a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link link text-white display-4" href="{{ route('pages.discover') }}">
                                     Discover Plateau
@@ -86,7 +92,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link text-white display-4" href="https://ppp-procurement.herokuapp.com/" target="_blank">
+                                <a class="nav-link link text-white display-4" href="https://ppp-procurement.herokuapp.com/" target="__blank">
                                     Portal
                                 </a>
                             </li>

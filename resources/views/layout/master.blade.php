@@ -26,7 +26,7 @@
             </noscript>
         <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
         <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" /> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="assets/css/custom.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         @yield('css')
@@ -120,50 +120,70 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7" style="color:#fff;">
+                            <strong>CONTACT INFO</strong>
+                        </h5>
+                        <p>
+                            New Government House <br />
+                            Little Rayfield Jos, Plateau State
+                        </p>
+                        <p>
+                            Phone: +234 816 445 9977 <br />
+                            Email: dg@ppp.plateaustate.gov.ng
+                        </p>
+                    </div>
+
+                    
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7" style="color:#fff;">
+                            <strong>RELATED INSTITUTIONS</strong>
+                        </h5>
+                        <ul class="list mbr-fonts-style display-4">
+                            <li class="mbr-text item-wrap">
+                                <a href="https://plateatstate.gov.ng">Plateau State Government</a>
+                            </li>
+                            <li class="mbr-text item-wrap">
+                                <a href="budgetandplanning.plateaustate.gov.ng">
+                                    Plateau Ministry of Budget &amp; Planning
+                                </a>
+                            </li>
+                            <li class="mbr-text item-wrap">
+                                <a href="http://www.nipc.gov.ng/">Nigeria Investment Promotion Council</a>
+                            </li>
+                            <li class="mbr-text item-wrap">
+                                <a href="https://www.pipcltd.com.ng/">
+                                    Plateau Investment Promotion Council
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
                         <!-- <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Related Institutions</strong></h5> -->
                         <!-- <p class="mbr-text mbr-fonts-style mb-4 display-4"> </p> -->
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7" style="color:#fff;">
                             <strong>Follow Us</strong>
                         </h5>
                         <div class="social-row display-7">
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-facebook"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-twitter"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                            <strong>RELATED INSTITUTIONS</strong>
-                        </h5>
-                        <ul class="list mbr-fonts-style display-4">
-                            <li class="mbr-text item-wrap">PICTDA</li>
-                            <li class="mbr-text item-wrap">PSIRS</li>
-                            <li class="mbr-text item-wrap">PIPC</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                            <strong>Mobirise Extensions</strong>
-                        </h5>
-                        <ul class="list mbr-fonts-style display-4">
-                        <li class="mbr-text item-wrap">PICTDA</li>
-                            <li class="mbr-text item-wrap">PSIRS</li>
-                            <li class="mbr-text item-wrap">PIPC</li>
-                        </ul>
-                    </div>
+                    
                     
                 </div>
             </div>
@@ -187,6 +207,10 @@
         <script src="assets/vimeoplayer/player.js"></script>  
         <script src="assets/dropdown/js/navbar-dropdown.js"></script>  
         <script src="assets/theme/js/script.js"></script>  
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.4/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.4/dist/js/uikit-icons.min.js"></script>
         @yield('js')
         <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
             <a style="text-align: center;">

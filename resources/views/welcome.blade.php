@@ -27,7 +27,7 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ URL::asset('assets/images/2.jpg') }}" alt="Los Angeles" class="d-block w-100">
+                    <img src="{{ URL::asset('assets/images/2.jpg') }}" alt="Los Angeles" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ URL::asset('assets/images/b1.jpg') }}" alt="Chicago" class="d-block w-100">
+                    <img src="{{ URL::asset('assets/images/b1.jpg') }}" alt="Chicago" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ URL::asset('assets/images/b2.jpg') }}" alt="New York" class="d-block w-100">
+                    <img src="{{ URL::asset('assets/images/b2.jpg') }}" alt="New York" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -140,7 +140,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="{{ URL::asset('assets/images/b3.jpg') }}" alt="New York" class="d-block w-100">
+                    <img src="{{ URL::asset('assets/images/b3.jpg') }}" alt="New York" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -202,7 +202,7 @@
         
     </section>
 
-    <section data-bs-version="5.1" class="features16 cid-sZHT4QbGvM" id="features17-p">
+    <section data-bs-version="5.1" class="features16 cid-sZHT4QbGvM" id="features17-p" uk-scrollspy="cls: uk-animation-fade uk-animation-slide-bottom; repeat: true">
         <div class="container">
             <div class="content-wrapper">
                 <div class="row align-items-center">
@@ -243,7 +243,7 @@
 
    
 
-    <section data-bs-version="5.1" class="features1 cid-sZLI6Fmvd7 mbr-parallax-background" id="features1-1a">
+    <section data-bs-version="5.1" class="features1 cid-sZLI6Fmvd7 mbr-parallax-background" id="features1-1a" uk-scrollspy="cls: uk-animation-fade uk-animation-slide-bottom; repeat: true">
         <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(40, 120, 26);">
         </div>
         <div class="container">
@@ -490,7 +490,7 @@
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18">
+    <section data-bs-version="5.1" class="features12 cid-sZLnoZzGjA" id="features13-18" uk-scrollspy="cls: uk-animation-fade uk-animation-slide-bottom; repeat: true">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-12">

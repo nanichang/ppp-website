@@ -90,7 +90,7 @@
                     <div class="row">
 						<div class="col-6 col-md-3">
 							<div class="card profile-card">
-								<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/ArK9YRKiTAQ" data-bs-target="#myModal">
+								<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/LFoWMJQf1qw" data-bs-target="#myModal">
 									<img src="assets/images/play.png" alt="" />
 								
 								</button>

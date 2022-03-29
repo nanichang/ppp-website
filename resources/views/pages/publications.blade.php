@@ -64,6 +64,13 @@
 					</div >
 				</div>
 			</div>
+			<div class="col-3 col-md-2">
+				<div class="card profile-card">
+					<div class="_df_thumb" id="df_manual_thumb" source="uploads/media/Plateau_PPP_Investment_copyRight_Mar_2022.pdf" thumb="uploads/media/cover/ppp-investment.png"> 
+						Plateau PPP Investment
+					</div >
+				</div>
+			</div>
         </div>
     </section>
 

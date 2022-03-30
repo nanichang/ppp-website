@@ -91,12 +91,12 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="card card-shadow on-hover border-0 mb-4">
 							<div class="card-body font-14">
-								<h5 class="mt-3 mb-1 font-weight-medium">SUSTAINABLE ECONOMIC REBIRTH</h5>
+								<h3 class="mt-3 mb-1 font-weight-medium"><strong>SUSTAINABLE ECONOMIC REBIRTH</strong></h3>
 								<hr />
 								<div class="item mbr-flex">
 									<div class="text-box">
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>AGRICULTURE</strong>
+											AGRICULTURE
 										</h4>
 										<ul>
 											<li><strong>Food Preservation & Value Addition</strong> - Reduction in post harvest losses through cold rooms, storage facilities, etc.</li>
@@ -105,7 +105,7 @@
 											<li><strong>Agro Forestation</strong> - Sustainability growth through economic tree planting, etc.</li>
 										</ul>
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>NATURAL MINERALS</strong>
+											NATURAL MINERALS
 										</h4>
 
 										<ul>
@@ -113,7 +113,7 @@
 										</ul>
 
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>TRADE & COMMERCE</strong>
+											TRADE & COMMERCE
 										</h4>
 										
 
@@ -123,7 +123,7 @@
 										</ul>
 
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>TOURISM & HOSPITALITY</strong>
+											TOURISM & HOSPITALITY
 										</h4>
 										<ul>
 											<li>
@@ -139,36 +139,45 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="card card-shadow on-hover border-0 mb-4">
 							<div class="card-body font-14">
-								<h5 class="mt-3 mb-1 font-weight-medium">PHYSICAL INSTRUCTURE DEVELOPMENT</h5>
+								<h3 class="mt-3 mb-1 font-weight-medium"><strong>PHYSICAL INSTRUCTURE DEVELOPMENT</strong></h3>
 								<hr />
 								<div class="item mbr-flex">
 									<div class="text-box">
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>TRANSPORTATION</strong>
+											TRANSPORTATION
 										</h4>
-										<p>- <strong>International Cargo Airport </strong> - Upgrade of Yakubu Gowon airport to international cargo airport status</p>
-										<p>- <strong>Mass Bus Transit </strong> - Plateau Riders (BRT) & Upgrade of Bus Terminals</p>
-										<p>- <strong>Trucking Hubs </strong> - Weigh Bridges, trucking hubs and transit parks</p>
+										<ul>
+											<li><strong>International Cargo Airport</strong> - Upgrade of Yakubu Gowon airport to international cargo airport status.</li>
+											<li><strong>Mass Bus Transit</strong> - Plateau Riders (BRT) & Upgrade of Bus Terminals</li>
+											<li><strong>Trucking Hubs</strong> - Weigh Bridges, trucking hubs and transit parks.</li>
+										</ul>
 										
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>INDUSTRIAL PROCESSING ZONES</strong>
+											INDUSTRIAL PROCESSING ZONES
 										</h4>
 
-										<p>- <strong>Sustainable Industrial Clusters for Exports </strong> - Export Processing Zones (EPZ)/Sustainable Investment Clusters (SIC)</p>
+										<ul>
+											<li><strong>Sustainable Industrial Clusters for Exports</strong> - Export Processing Zones (EPZ)/Sustainable Investment Clusters (SIC)</li>
+										</ul>
 
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>BROADBAND & POWER</strong>
+											BROADBAND & POWER
 										</h4>
 
-										<p>- <strong>Sustainable Smart City </strong> - Fiber Optic, Deployment, Tech Parks, ISPs</p>
-										<p>- <strong>Renewable Energy Development </strong> - Rural Electrification, Hydro, Solar & Wind</p>
+										<ul>
+											<li><strong>Sustainable Smart City</strong> - Fiber Optic, Deployment, Tech Parks, ISPs</li>
+											<li><strong>Renewable Energy Development</strong> - Rural Electrification, Hydro, Solar & Wind</li>
+										</ul>
 
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>REAL ESTATE DEVELOPMENT</strong>
+											REAL ESTATE DEVELOPMENT
 										</h4>
+
+										<ul>
+											<li><strong>Modern Full Serviced Residential Estate Scheme</strong> - Estate schemes for low cost & luxury housing</li>
+											<li><strong>Commercial & Business Centers</strong> - Upgrades of hotels, business, entertainment & recreational parks</li>
+										</ul>
 										
-										<p>- <strong>Modern Full Serviced Residential Estate Scheme </strong> - 1.Estate schemes for low cost & luxury housing</p>
-										<p>- <strong>Commercial & Business Centers </strong> - 2.Upgrades of hotels, business, entertainment & recreational parks</p>
 									</div>
 								</div>
 							</div>
@@ -178,30 +187,35 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="card card-shadow on-hover border-0 mb-4">
 							<div class="card-body font-14">
-								<h5 class="mt-3 mb-1 font-weight-medium">PEACE, SECURTIY & GOOD GOVERNANCE</h5>
+								<h3 class="mt-3 mb-1 font-weight-medium"><strong>PEACE, SECURTIY & GOOD GOVERNANCE</strong></h3>
 								<hr />
 								<div class="item mbr-flex">
 									<div class="text-box">
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>ENTERTAINMENT & SPORTS</strong>
-										</h4>
-										<p><strong>State of the Art Multipurpose Center</strong> - Indoor Theater with inclusive malls & facilities with huge capacity to host major events in secure location</p>
-										<p><strong>Sports & Entertainment Complexes</strong> Upgrade with state of the art equipment and facilities</p>
-										
-										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>SECURITY</strong>
+											ENTERTAINMENT & SPORTS
 										</h4>
 
-										<p><strong>Low Cost Housing Estate Scheme (Impact Investors) - </strong> IDP resettlement, boreholes & mini markets in communities.</p>
-										<p><strong>Garden of Peace - </strong> Impact investor Private Sector Support funds.</p>
+										<ul>
+											<li><strong>State of the Art Multipurpose Center</strong> - Indoor Theater with inclusive malls & facilities with huge capacity to host major events in secure location</li>
+											<li><strong>Sports & Entertainment Complexes</strong> - Upgrade with state of the art equipment and facilities</li>
+										</ul>
 
 										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
-											<strong>EDUCATION</strong>
+											SECURITY
 										</h4>
 
-										<p><strong>Vocational Schools </strong> Skills development centers for artisans, technicians & skilled workers, etc.</p>
+										<ul>
+											<li><strong>Low Cost Housing Estate Scheme (Impact Investors) - </strong> IDP resettlement, boreholes & mini markets in communities.</li>
+											<li><strong>Garden of Peace - </strong> Impact investor Private Sector Support funds.</li>
+										</ul>
 
-										
+										<h4 class="icon-title mbr-black mbr-fonts-style display-7">
+											EDUCATION
+										</h4>
+
+										<ul>
+											<li><strong>Vocational Schools </strong> Skills development centers for artisans, technicians & skilled workers, etc.</li>
+										</ul>
 									</div>
 								</div>
 							</div>

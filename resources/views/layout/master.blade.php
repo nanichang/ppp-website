@@ -141,18 +141,18 @@
                         </h5>
                         <ul class="list mbr-fonts-style display-4">
                             <li class="mbr-text item-wrap">
-                                <a href="https://plateatstate.gov.ng" class="text-white">Plateau State Government</a>
+                                <a href="https://plateatstate.gov.ng" target="__blank" class="text-white">Plateau State Government</a>
                             </li>
                             <li class="mbr-text item-wrap">
-                                <a href="budgetandplanning.plateaustate.gov.ng" class="text-white">
+                                <a href="budgetandplanning.plateaustate.gov.ng" target="__blank" class="text-white">
                                     Plateau Ministry of Budget &amp; Planning
                                 </a>
                             </li>
                             <li class="mbr-text item-wrap">
-                                <a href="http://www.nipc.gov.ng/" class="text-white">Nigeria Investment Promotion Council</a>
+                                <a href="http://www.nipc.gov.ng/" target="__blank" class="text-white">Nigeria Investment Promotion Council</a>
                             </li>
                             <li class="mbr-text item-wrap">
-                                <a href="https://www.pipcltd.com.ng/" class="text-white">
+                                <a href="https://www.pipcltd.com.ng/" target="__blank" class="text-white">
                                     PIPC
                                 </a>
                             </li>

@@ -153,7 +153,7 @@
                             </li>
                             <li class="mbr-text item-wrap">
                                 <a href="https://www.pipcltd.com.ng/" class="text-white">
-                                    Plateau Investment Promotion Council
+                                    PIPC
                                 </a>
                             </li>
                         </ul>

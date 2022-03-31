@@ -40,10 +40,10 @@
                     <div class="navbar-brand">
                         <span class="navbar-logo">
                             <a href="/">
-                                <img src="assets/images/logo2-95x95.png" alt="Mobirise Website Builder" style="height: 3rem;">
+                                <img src="assets/images/ppp_logo.png" alt="Mobirise Website Builder" style="height: 3rem;">
                             </a>
                         </span>
-                        <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-7" href="/">PPP AGENCY</a></span>
+                        <!-- <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-7" href="/">PPP AGENCY</a></span> -->
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <div class="hamburger">

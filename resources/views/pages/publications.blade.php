@@ -99,6 +99,17 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-6 col-md-3">
+							<div class="card profile-card">
+								<button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/rduEmRVNiq0" data-bs-target="#myModal">
+									<img src="assets/images/play.png" alt="" />
+								
+								</button>
+								<div class="profile text-center">
+									<p>Asmor Worldwide</p>
+								</div>
+							</div>
+						</div>
                     </div>
                 </div>
             </div>

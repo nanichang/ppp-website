@@ -27,7 +27,7 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ URL::asset('assets/images/2.jpg') }}" alt="Los Angeles" class="d-block w-100 uk-animation-kenburns">
+                    <img src="{{ URL::asset('assets/images/2.jpeg') }}" alt="Los Angeles" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ URL::asset('assets/images/b1.jpg') }}" alt="Chicago" class="d-block w-100 uk-animation-kenburns">
+                    <img src="{{ URL::asset('assets/images/b1.jpeg') }}" alt="Chicago" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ URL::asset('assets/images/b2.jpg') }}" alt="New York" class="d-block w-100 uk-animation-kenburns">
+                    <img src="{{ URL::asset('assets/images/b2.jpeg') }}" alt="New York" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>
@@ -140,7 +140,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img src="{{ URL::asset('assets/images/b3.jpg') }}" alt="New York" class="d-block w-100 uk-animation-kenburns">
+                    <img src="{{ URL::asset('assets/images/b3.jpeg') }}" alt="New York" class="d-block w-100 uk-animation-kenburns">
                     <div class="carousel-caption">
                         <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-3 display-1">
                             <strong><br></strong>

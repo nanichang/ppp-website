@@ -401,21 +401,21 @@
 
                                 .cls-16 {
                                     fill: #F8F8FF;
-                                    stroke: #41b186
+                                    stroke: #00a79d
                                 }
 
                                 .cls-16:hover {
-                                    fill: #127752;
+                                    fill: #00a79d;
                                     stroke: #F8F8FF;
                                     stroke-width: 5px;
                                 }
 
                                 .cls-17 {
                                     fill: #F8F8FF;
-                                    stroke: #329b34
+                                    stroke: #81ad13;
                                 }
                                 .cls-17:hover {
-                                    fill: #329b34;
+                                    fill: #81ad13;
                                     stroke: #F8F8FF;
                                     stroke-width: 5px;
                                 }
